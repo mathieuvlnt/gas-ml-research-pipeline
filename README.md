@@ -64,15 +64,15 @@ streamlit run app.py
 
 ### Home
 
-![Home](screenshots/home.png)
+![Home](home.png)
 
 ### Market Data
 
-![Market Data](screenshots/market.png)
+![Market Data](market.png)
 
 ### Feature Importance
 
-![Feature Importance](screenshots/importance.png)
+![Feature Importance](importance.png)
 ## Author
 
 **Mathieu Voluntario**
