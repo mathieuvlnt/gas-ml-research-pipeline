@@ -60,6 +60,19 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+## Application Preview
+
+### Home
+
+![Home](screenshots/home.png)
+
+### Market Data
+
+![Market Data](screenshots/market.png)
+
+### Feature Importance
+
+![Feature Importance](screenshots/importance.png)
 ## Author
 
 **Mathieu Voluntario**
