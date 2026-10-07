@@ -24,9 +24,9 @@ class MarketData:
             close.name = asset_name
             price_data[asset_name] = close
 
-        prices = pd.concat(price_data.values(), axis=1)
+        prices = pd.concat(price_data.values(), axis=1, join="inner")
 
-        prices = prices.sort_index().ffill().dropna()
+        prices = prices.sort_index().dropna()
 
         return prices
 
