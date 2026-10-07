@@ -2,6 +2,8 @@
 
 Machine learning research project focused on the European natural gas market, combining market data, quantitative signals and fundamental gas-market indicators to study TTF price behaviour.
 
+![Dashboard Overview](home.png)
+
 ## Overview
 
 The pipeline investigates several forecasting problems:
@@ -40,6 +42,8 @@ The model combines:
 
 Storage data is sourced from GIE AGSI+ and historical weather data from Open-Meteo.
 
+![European Gas Fundamentals](fundamentals.png)
+
 ## Models
 
 The research pipeline compares:
@@ -64,6 +68,8 @@ Using the 10-year historical window, Random Forest produced the strongest overal
 The results suggest that short-term directional forecasting remains difficult, while market volatility, storage conditions and weather-related demand variables provide more useful information for identifying large moves and high-volatility regimes.
 
 Feature importance analysis shows that short-term volatility measures remain the main drivers of large-move predictions, while European storage levels and HDD indicators provide additional fundamental information.
+
+![Feature Importance](importance.png)
 
 ## Dashboard
 
